@@ -1,0 +1,26 @@
+{
+  "name": "@menhera/group-membership",
+  "version": "0.1.0",
+  "description": "TCP Netstring server which checks if a user belongs to a certain UNIX group, written in Node.JS.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/menhera-org/group-membership-node.git"
+  },
+  "author": "Menhera.org developers",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/menhera-org/group-membership-node/issues"
+  },
+  "homepage": "https://github.com/menhera-org/group-membership-node#readme",
+  "devDependencies": {
+    "@types/node": "^20.12.5",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
